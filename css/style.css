@@ -1,0 +1,129 @@
+/* header */
+.banner{
+    position: relative;
+    width:100%;
+
+}
+.box-wraper{
+    position: absolute;
+    width:1090px;
+    top:40px;
+    left:139px;
+    display: flex;
+    justify-content: space-around;
+}
+.ul-wraper{
+    display: flex;
+}
+.nav-li{
+    margin-left:60px;
+}
+.nav-a{
+    color:white;
+}
+.hotel-Name{
+    margin-right:200px;
+    color:white;
+    font-size:14px;
+}
+.title{
+    position: absolute;
+    top:158px;
+    left:139px;
+    font-size:42px;
+    color:white;
+}
+.home{
+    position: absolute;
+    left:139px;
+    top:223px;
+    color:white;
+
+}
+.home::after{
+    content: "";
+    height:19px;
+    width:2px;
+    background-color:white;
+    display: inline-block;
+    position: absolute;
+    margin-left:20px;
+    
+}
+.aboutus{
+    position: absolute;
+    left:212px;
+    top:223px;
+    color:white;
+    font-family: 'Poppins';
+
+
+}
+
+/* start first section */
+
+.about-wraper{
+    width:444px;
+}
+.p{
+    font-size:14px;
+    color:#5863F8;
+    margin-bottom:20px;
+}
+.p-about{
+    font-size:42px;
+    margin-bottom: 20px;
+    width: 309px;
+}
+.p1{
+    font-size:16px;
+    margin-bottom:31px;
+}
+.p2{
+    font-size:14px;
+    margin-bottom: 41px;
+}
+
+
+.read-more{
+    background-color: #5863F8;
+    width:184px;
+    height:50px;
+    position: relative;
+}
+.readMore{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.img-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top:90px;
+}
+
+.box-image{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:13px;
+}
+.img-wraper{
+    width:536px;
+}
+/* second section */
+
+.details{
+    position: relative;
+    width:100%;
+    margin-top:90px;
+
+}
+/* .p-box{
+    font-size:14px;
+    color:#5863F8;
+    position: absolute;
+    top:161px;
+    left:139px;
+
+} */
